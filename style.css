@@ -1,0 +1,48 @@
+#animation {
+    
+    margin-top: 300px;
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    float: left;
+    border-radius: -100px;
+    animation: anim 7s ease-in-out infinite;
+    
+}
+
+@keyframes anim {
+    0% {
+        transform: translateY(0px) rotate(0deg);
+    }
+    50% {
+        transform: translateY(-100px) rotate(-360deg);
+    }
+    100% {
+        transform: translateY(0px) rotate(0deg);
+    }
+}
+
+body {
+    background-color: black;
+    /* background: linear-gradient(to right, 
+    rgb(76, 217, 105),
+    rgb(52, 170, 220),
+    rgb(88, 86, 217),
+    rgb(255, 45, 83),
+    rgb(255, 45, 83),
+    rgb(88, 86, 217),
+    rgb(52,170,220),
+    rgb(76, 217, 105)
+    );
+    animation: sTransition 10s linear infinite; */
+
+}
+/* 
+@keyframes sTransition {
+    0% {
+        background-position: 0%;
+    }
+    100% {
+        background-position: 400%;
+    }
+} */
